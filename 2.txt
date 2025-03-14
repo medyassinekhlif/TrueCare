@@ -1,0 +1,19 @@
+Patient Information:
+Full name: Jane Smith
+Date of birth: 1995
+Insurance Tier: Silver
+Network status: out-of-network
+Pre-existing condition: Yes
+Retired: No
+
+Treatment Details:
+Diagnosis: Type 2 Diabetes (E11)
+Sessions attended: 10
+Treatment duration: 6 months
+Treatment Type: Medication
+Case Severity: Non-critical
+
+Financial Information:
+Total amount paid: 8000.00
+Policy reimbursement margin: 50-70%
+Final reimbursement percentage: 60%
