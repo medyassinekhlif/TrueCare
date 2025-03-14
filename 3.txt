@@ -1,0 +1,19 @@
+Patient Information:
+Full name: John Doe
+Date of birth: 1980
+Insurance Tier: Gold
+Network status: in-network
+Pre-existing condition: No
+Retired: No
+
+Treatment Details:
+Diagnosis: Hypertension (I10)
+Sessions attended: 5
+Treatment duration: 3 months
+Treatment Type: Medication
+Case Severity: Moderate
+
+Financial Information:
+Total amount paid: 4500.00
+Policy reimbursement margin: 70-90%
+Final reimbursement percentage: 85%
