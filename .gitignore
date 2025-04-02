@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+api/node_modules/
+client/node_modules/
+
+# Environment variables
+*.env
+api/.env
+client/.env
+
+# Logs
+*.log
+
+# Build directories
+build/
+dist/
+client/build/
+client/dist/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyTorch model files
+*.pth
+
+# package-lock.json
+package-lock.json
+api/package-lock.json
+client/package-lock.json
+
+# Misc generated files
+*.cache
