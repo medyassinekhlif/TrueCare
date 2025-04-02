@@ -1,0 +1,19 @@
+Patient Information:
+Full name: Mike Johnson
+Date of birth: 1975
+Insurance Tier: Platinum
+Network status: in-network
+Pre-existing condition: No
+Retired: Yes
+
+Treatment Details:
+Diagnosis: Chronic Back Pain (M54.5)
+Sessions attended: 8
+Treatment duration: 4 months
+Treatment Type: Physical Therapy
+Case Severity: Critical
+
+Financial Information:
+Total amount paid: 6500.00
+Policy reimbursement margin: 80-95%
+Final reimbursement percentage: 90%
