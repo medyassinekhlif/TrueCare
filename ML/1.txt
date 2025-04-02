@@ -1,17 +1,19 @@
 Patient Information:
-Full name: John Doe
-Date of birth: 1980
-Retired: No
-Doctor: Dr. Alice Brown
+Full name: Mike Johnson
+Date of birth: 1975
+Insurance Tier: Platinum
+Network status: in-network
+Pre-existing condition: No
+Retired: Yes
 
 Treatment Details:
-Diagnosis: Hypertension (I10)
-Sessions attended: 5
-Treatment duration: 3 months
-Treatment Type: Medication
-Case Severity: Moderate
+Diagnosis: Chronic Back Pain (M54.5)
+Sessions attended: 8
+Treatment duration: 4 months
+Treatment Type: Physical Therapy
+Case Severity: Critical
 
 Financial Information:
-Total amount paid: 4500.00
-Policy reimbursement margin: 70-90%
-Final reimbursement percentage: 85%
+Total amount paid: 6500.00
+Policy reimbursement margin: 80-95%
+Final reimbursement percentage: 90%

@@ -7,7 +7,7 @@ import re
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from torch.utils.data import DataLoader
 
-# Enhanced neural network architecture with an extra hidden layer
+# Enhanced neural network architecture
 class ReimbursementModel(nn.Module):
     def __init__(self, input_size):
         super(ReimbursementModel, self).__init__()
@@ -15,11 +15,7 @@ class ReimbursementModel(nn.Module):
             nn.Linear(input_size, 128),
             nn.BatchNorm1d(128),
             nn.ReLU(),
-            nn.Dropout(0.25),
-            nn.Linear(128, 128),
-            nn.BatchNorm1d(128),
-            nn.ReLU(),
-            nn.Dropout(0.25),
+            nn.Dropout(0.2),
             nn.Linear(128, 64),
             nn.BatchNorm1d(64),
             nn.ReLU(),
@@ -28,17 +24,15 @@ class ReimbursementModel(nn.Module):
         )
     
     def forward(self, x):
-        # Scale output to a percentage (0-100)
-        return self.net(x) * 100
+        return self.net(x) * 100  # Scale output to percentage
 
-# Enhanced data processor including new features (policy margins)
+# Enhanced data processor including new features
 class InsuranceDataProcessor:
     def __init__(self):
         self.scaler = StandardScaler()
         self.enc = OneHotEncoder(handle_unknown='ignore')
-        # Add policy_min_margin and policy_max_margin as numerical features.
-        self.num_features_order = ['sessions', 'total_expense', 'age', 'in_network', 
-                                   'pre_existing', 'retired', 'policy_min_margin', 'policy_max_margin']
+        # Define order of numerical and categorical features
+        self.num_features_order = ['sessions', 'total_expense', 'age', 'in_network', 'pre_existing', 'retired']
         self.cat_features_order = ['insurance_tier', 'treatment_type', 'case_severity']
         
     def fit_transform(self, features_list):
@@ -71,49 +65,35 @@ class InsuranceDataProcessor:
         
         return np.hstack([scaled_num, encoded_cat])
 
-# Enhanced parser that extracts new fields from text files including policy margins
+# Enhanced parser that extracts new fields from text files
 def parse_txt_file(file_path):
     with open(file_path, 'r') as f:
         content = f.read()
     
+    # Helper function with error handling
     def extract_pattern(pattern, default=None):
         match = re.search(pattern, content)
         return match.group(1).strip() if match else default
     
-    # Extract policy reimbursement margin as a range e.g. "70-90"
-    margin = extract_pattern(r"Policy reimbursement margin:\s*([\d]+)-([\d]+)%", None)
-    if margin:
-        # Use regex groups for min and max
-        margin_match = re.search(r"([\d]+)-([\d]+)", extract_pattern(r"Policy reimbursement margin:\s*([\d\-]+)%", "0-0"))
-        policy_min_margin = float(margin_match.group(1))
-        policy_max_margin = float(margin_match.group(2))
-    else:
-        policy_min_margin = 0.0
-        policy_max_margin = 0.0
-
+    # Parse fields from text content
     data = {
         'sessions': int(extract_pattern(r"Sessions attended:\s*(\d+)", "0")),
         'total_expense': float(extract_pattern(r"Total amount paid:\s*([\d.]+)", "0.0")),
         'age': 2024 - int(extract_pattern(r"Date of birth:\s*(\d{4})", "2000")),
         'insurance_tier': extract_pattern(r"Insurance Tier:\s*(.*?)\n", "Unknown"),
-        'in_network': int('in-network' in extract_pattern(r"Network status:\s*(.*?)\n", "out-of-network").lower()),
-        'pre_existing': int(extract_pattern(r"Pre-existing condition:\s*(Yes|No)", "No").lower() == "yes"),
-        'retired': int(extract_pattern(r"Retired:\s*(Yes|No)", "No").lower() == "yes"),
+        'in_network': int('in-network' in extract_pattern(r"Network status:\s*(.*?)\n", "out-of-network")),
+        'pre_existing': int(extract_pattern(r"Pre-existing condition:\s*(Yes|No)", "No") == "Yes"),
+        'retired': int(extract_pattern(r"Retired:\s*(Yes|No)", "No") == "Yes"),
         'treatment_type': extract_pattern(r"Treatment Type:\s*(.*?)\n", "Unknown"),
         'case_severity': extract_pattern(r"Case Severity:\s*(.*?)\n", "Non-critical"),
-        # Final reimbursement percentage is the target variable (without % symbol)
-        'reimbursement_percentage': float(extract_pattern(r"Final reimbursement percentage:\s*([\d.]+)", "0.0")),
-        # New features from policy reimbursement margin:
-        'policy_min_margin': policy_min_margin,
-        'policy_max_margin': policy_max_margin
+        'reimbursement_percentage': float(extract_pattern(r"Final reimbursement percentage:\s*([\d.]+)", "0.0"))
     }
     return data
 
-# Training function with validation, early stopping, and learning rate scheduling
+# Training function with validation and early stopping based on validation loss
 def train_model(model, train_loader, val_loader, epochs=100):
     criterion = nn.MSELoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5, verbose=True)
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
     best_loss = float('inf')
     
     for epoch in range(epochs):
@@ -138,15 +118,13 @@ def train_model(model, train_loader, val_loader, epochs=100):
         avg_train_loss = train_loss / len(train_loader)
         avg_val_loss = val_loss / len(val_loader)
         
-        scheduler.step(avg_val_loss)
-        
         # Save the best model based on validation loss
         if avg_val_loss < best_loss:
             best_loss = avg_val_loss
             torch.save(model.state_dict(), "best_model.pth")
         
         print(f"Epoch {epoch+1}: Train Loss: {avg_train_loss:.4f}, Val Loss: {avg_val_loss:.4f}")
-        
+
 # Sample usage
 if __name__ == "__main__":
     # Load and process data from all .txt files in the current directory
@@ -176,7 +154,6 @@ if __name__ == "__main__":
     test_features = parse_txt_file("3.txt")
     test_input = processor.transform([test_features])
     model.load_state_dict(torch.load("best_model.pth"))
-    model.eval()
     with torch.no_grad():
         prediction = model(torch.tensor(test_input, dtype=torch.float32)).item()
     print(f"Predicted Reimbursement Percentage: {prediction:.2f}%")

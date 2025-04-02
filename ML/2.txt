@@ -1,8 +1,10 @@
 Patient Information:
 Full name: Jane Smith
 Date of birth: 1995
+Insurance Tier: Silver
+Network status: out-of-network
+Pre-existing condition: Yes
 Retired: No
-Doctor: Dr. Alice Brown
 
 Treatment Details:
 Diagnosis: Type 2 Diabetes (E11)
