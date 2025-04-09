@@ -1,8 +1,13 @@
 import { FaLightbulb, FaUsers } from "react-icons/fa";
 import jumbotron from "../assets/8.png";
-
+import Navbar from "./navbar";
 function HomePage() {
   return (
+    <>
+    <Navbar />
+    
+    
+   
     <div className="relative isolate overflow-x-hidden overflow-hidden px-6 py-8 sm:py-8 lg:px-8 lg:py-8">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
@@ -136,6 +141,7 @@ function HomePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
