@@ -11,7 +11,7 @@ import slide1 from './../assets/6.png';
 import slide2 from './../assets/6.png';
 import slide3 from './../assets/6.png';
 
-function DoctorLogin() {
+function DoctorAuth() {
   const [isSignup, setIsSignup] = useState(false);
   const [formData, setFormData] = useState({
     email: '',
@@ -44,7 +44,7 @@ function DoctorLogin() {
       {/* Left: Auth Form */}
       <div className="w-full lg:w-1/2 flex items-center justify-center p-6 bg-white">
         <div className="w-full max-w-md space-y-6">
-          <h1 className="text-3xl font-bold text-gray-800 text-center">
+          <h1 className="text-3xl font-bold text-[#1B4965] text-center">
             {isSignup ? 'Create your account' : 'Welcome back'}
           </h1>
           <p className="text-center text-gray-500">
@@ -55,7 +55,7 @@ function DoctorLogin() {
 
           {/* OAuth Buttons */}
           <div className="flex flex-col gap-3">
-            <button className="flex items-center justify-center gap-2 border border-gray-300 rounded-lg py-2 px-4 hover:bg-gray-100 transition text-sm font-medium w-full">
+            <button className="flex items-center justify-center gap-2 border border-[#2A5A7A] rounded-lg py-2 px-4 hover:bg-[#2A5A7A] hover:bg-opacity-10 transition text-sm font-medium w-full">
               <svg className="w-5 h-5" viewBox="0 0 24 24">
                 <path
                   fill="#4285F4"
@@ -76,7 +76,7 @@ function DoctorLogin() {
               </svg>
               Sign in with Google
             </button>
-            <button className="flex items-center justify-center gap-2 border border-gray-300 rounded-lg py-2 px-4 hover:bg-gray-100 transition text-sm font-medium w-full">
+            <button className="flex items-center justify-center gap-2 border border-[#2A5A7A] rounded-lg py-2 px-4 hover:bg-[#2A5A7A] hover:bg-opacity-10 transition text-sm font-medium w-full">
               <svg className="w-5 h-5" viewBox="0 0 24 24">
                 <path
                   fill="#0078D4"
@@ -99,14 +99,14 @@ function DoctorLogin() {
               placeholder="Email"
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B4965]"
             />
             <input
               type="password"
               placeholder="Password"
               value={formData.password}
               onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B4965]"
             />
             {isSignup && (
               <>
@@ -115,20 +115,20 @@ function DoctorLogin() {
                   placeholder="Full Name"
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B4965]"
                 />
                 <input
                   type="text"
                   placeholder="Specialty"
                   value={formData.specialty}
                   onChange={(e) => setFormData({ ...formData, specialty: e.target.value })}
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B4965]"
                 />
               </>
             )}
             <button
               type="submit"
-              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2 rounded-lg font-semibold transition"
+              className="w-full bg-[#1B4965] hover:bg-[#2A5A7A] text-white py-2 rounded-lg font-semibold transition duration-200"
             >
               {isSignup ? 'Sign Up' : 'Login'}
             </button>
@@ -138,7 +138,7 @@ function DoctorLogin() {
             {isSignup ? 'Already have an account?' : "Don't have an account?"}{' '}
             <button
               onClick={() => setIsSignup(!isSignup)}
-              className="text-emerald-600 font-medium hover:underline"
+              className="text-[#006A6A] font-medium hover:underline"
             >
               {isSignup ? 'Login here' : 'Sign up here'}
             </button>
@@ -147,7 +147,7 @@ function DoctorLogin() {
       </div>
 
       {/* Right: Swiper Image Slider */}
-      <div className="hidden lg:flex w-1/2 bg-emerald-600 text-white items-center justify-center px-8">
+      <div className="hidden lg:flex w-1/2 bg-[#006A6A] text-white items-center justify-center px-8">
         <Swiper
           modules={[Pagination, Autoplay]}
           pagination={{ clickable: true }}
@@ -156,21 +156,21 @@ function DoctorLogin() {
           className="w-full h-full"
         >
           <SwiperSlide className="flex flex-col items-center justify-center text-center px-6">
-            <img src={slide1} alt="Slide 1" className="w-3/4 mb-4 rounded-lg" />
-            <h2 className="text-2xl font-bold">Streamline Your Workflow</h2>
-            <p className="text-sm">AI-powered claim management made simple and fast.</p>
+            <img src={slide1} alt="Streamline Workflow" className="w-3/4 mb-4 rounded-lg" />
+            <h2 className="text-2xl font-bold text-white">Streamline Your Workflow</h2>
+            <p className="text-sm text-white">AI-powered claim management made simple and fast.</p>
           </SwiperSlide>
 
           <SwiperSlide className="flex flex-col items-center justify-center text-center px-6">
-            <img src={slide2} alt="Slide 2" className="w-3/4 mb-4 rounded-lg" />
-            <h2 className="text-2xl font-bold">Faster Decision Making</h2>
-            <p className="text-sm">Get real-time insights and make informed choices.</p>
+            <img src={slide2} alt="Faster Decisions" className="w-3/4 mb-4 rounded-lg" />
+            <h2 className="text-2xl font-bold text-white">Faster Decision Making</h2>
+            <p className="text-sm text-white">Get real-time insights and make informed choices.</p>
           </SwiperSlide>
 
           <SwiperSlide className="flex flex-col items-center justify-center text-center px-6">
-            <img src={slide3} alt="Slide 3" className="w-3/4 mb-4 rounded-lg" />
-            <h2 className="text-2xl font-bold">Collaborate Smarter</h2>
-            <p className="text-sm">Connect with clients and team efficiently and securely.</p>
+            <img src={slide3} alt="Collaborate Smarter" className="w-3/4 mb-4 rounded-lg" />
+            <h2 className="text-2xl font-bold text-white">Collaborate Smarter</h2>
+            <p className="text-sm text-white">Connect with clients and team efficiently and securely.</p>
           </SwiperSlide>
         </Swiper>
       </div>
@@ -178,4 +178,4 @@ function DoctorLogin() {
   );
 }
 
-export default DoctorLogin;
+export default DoctorAuth;

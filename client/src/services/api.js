@@ -21,3 +21,4 @@ export const updateClient = (clientId, clientData) => API.put(`/insurer/clients/
 export const getInsurerDashboard = () => API.get('/insurer/dashboard');
 export const getClientMedicalDocs = (clientId) => API.get(`/insurer/clients/${clientId}/medical-documents`);
 export const createMedicalBulletin = (bulletinData) => API.post('/doctor/medical-bulletin', bulletinData);
+export const getClient = (clientId) => API.get(`/insurer/client/${clientId}`);

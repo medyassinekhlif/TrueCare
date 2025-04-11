@@ -2,6 +2,7 @@
 node_modules/
 api/node_modules/
 client/node_modules/
+test/node_modules/
 
 # Environment variables
 *.env
@@ -38,6 +39,7 @@ desktop.ini
 package-lock.json
 api/package-lock.json
 client/package-lock.json
+test/package-lock.json
 
 # Misc generated files
 *.cache

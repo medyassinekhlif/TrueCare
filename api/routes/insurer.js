@@ -4,6 +4,7 @@ import {
   signupInsurer, 
   loginInsurer, 
   addClient, 
+  getClient,
   updateClient,
   getDashboard,
   getClientMedicalDocuments 
@@ -16,6 +17,7 @@ router.post('/login', loginInsurer);
 router.post('/clients', auth, addClient);
 router.put('/clients/:clientId', auth, updateClient);
 router.get('/dashboard', auth, getDashboard);
+router.get('/client/:clientId', auth, getClient);
 router.get('/clients/:clientId/medical-documents', auth, getClientMedicalDocuments);
 
 export default router;
