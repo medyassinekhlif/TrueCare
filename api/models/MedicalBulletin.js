@@ -1,25 +1,34 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const medicalBulletinSchema = new mongoose.Schema({
-  doctorId: { type: mongoose.Schema.Types.ObjectId, ref: 'Doctor', required: true },
-  clientId: { type: String, required: true },
-  patientInfo: {
-    fullName: String,
-    dateOfBirth: Date,
-    retired: Boolean,
-    assuranceCompany: String
+  clientId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Client",
+    required: true,
+  },
+  doctorId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Doctor",
+    required: true,
   },
   treatmentDetails: {
-    diagnosis: String,
-    sessionsAttended: Number,
-    treatmentDuration: String,
-    treatmentType: String,
-    caseSeverity: { type: String, enum: ['Mild', 'Moderate', 'Severe'] }
+    diagnosis: { type: String, required: true },
+    sessionsAttended: { type: Number, default: 0 },
+    treatmentDuration: { type: String },
+    treatmentType: { type: String },
+    caseSeverity: {
+      type: Number,
+      required: true,
+      min: 0,
+      max: 5,
+    },
   },
   financialInfo: {
-    totalAmountPaid: Number
+    totalAmountPaid: { type: Number, required: true },
   },
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
 });
 
-export default mongoose.model('MedicalBulletin', medicalBulletinSchema);
+export default mongoose.model("MedicalBulletin", medicalBulletinSchema);
+
+

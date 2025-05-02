@@ -1,0 +1,1703 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439001",
+    "clientId": "507f1f77bcf86cd799440001",
+    "doctorId": "507f1f77bcf86cd799439101",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 4,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1200
+    },
+    "createdAt": "2023-08-10T09:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 624
+  },
+  {
+    "_id": "507f1f77bcf86cd799439002",
+    "clientId": "507f1f77bcf86cd799440002",
+    "doctorId": "507f1f77bcf86cd799439102",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 8,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 5000
+    },
+    "createdAt": "2024-01-15T14:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 3250
+  },
+  {
+    "_id": "507f1f77bcf86cd799439003",
+    "clientId": "507f1f77bcf86cd799440003",
+    "doctorId": "507f1f77bcf86cd799439103",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 12,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3000
+    },
+    "createdAt": "2022-11-20T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2100
+  },
+  {
+    "_id": "507f1f77bcf86cd799439004",
+    "clientId": "507f1f77bcf86cd799440004",
+    "doctorId": "507f1f77bcf86cd799439104",
+    "treatmentDetails": {
+      "diagnosis": "Arthritis",
+      "sessionsAttended": 6,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2021-03-12T10:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439005",
+    "clientId": "507f1f77bcf86cd799440005",
+    "doctorId": "507f1f77bcf86cd799439105",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2024-06-05T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 210
+  },
+  {
+    "_id": "507f1f77bcf86cd799439006",
+    "clientId": "507f1f77bcf86cd799440006",
+    "doctorId": "507f1f77bcf86cd799439106",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 10,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 7000
+    },
+    "createdAt": "2023-02-28T15:00:00Z",
+    "reimbursementClass": "High",
+    "reimbursementAmount": 5600
+  },
+  {
+    "_id": "507f1f77bcf86cd799439007",
+    "clientId": "507f1f77bcf86cd799440007",
+    "doctorId": "507f1f77bcf86cd799439107",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 5,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1500
+    },
+    "createdAt": "2022-09-17T12:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 480
+  },
+  {
+    "_id": "507f1f77bcf86cd799439008",
+    "clientId": "507f1f77bcf86cd799440008",
+    "doctorId": "507f1f77bcf86cd799439108",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 3,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2000
+    },
+    "createdAt": "2023-11-03T09:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1300
+  },
+  {
+    "_id": "507f1f77bcf86cd799439009",
+    "clientId": "507f1f77bcf86cd799440009",
+    "doctorId": "507f1f77bcf86cd799439109",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 7,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 4000
+    },
+    "createdAt": "2024-03-21T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2600
+  },
+  {
+    "_id": "507f1f77bcf86cd799439010",
+    "clientId": "507f1f77bcf86cd799440010",
+    "doctorId": "507f1f77bcf86cd799439110",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 9,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2500
+    },
+    "createdAt": "2022-07-09T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1750
+  },
+  {
+    "_id": "507f1f77bcf86cd799439011",
+    "clientId": "507f1f77bcf86cd799440011",
+    "doctorId": "507f1f77bcf86cd799439111",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 1,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 500
+    },
+    "createdAt": "2023-05-14T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 175
+  },
+  {
+    "_id": "507f1f77bcf86cd799439012",
+    "clientId": "507f1f77bcf86cd799440012",
+    "doctorId": "507f1f77bcf86cd799439112",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 11,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8000
+    },
+    "createdAt": "2024-02-02T16:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4400
+  },
+  {
+    "_id": "507f1f77bcf86cd799439013",
+    "clientId": "507f1f77bcf86cd799440013",
+    "doctorId": "507f1f77bcf86cd799439113",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 4,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1800
+    },
+    "createdAt": "2021-10-27T10:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 936
+  },
+  {
+    "_id": "507f1f77bcf86cd799439014",
+    "clientId": "507f1f77bcf86cd799440014",
+    "doctorId": "507f1f77bcf86cd799439114",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 5,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1000
+    },
+    "createdAt": "2023-04-19T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439015",
+    "clientId": "507f1f77bcf86cd799440015",
+    "doctorId": "507f1f77bcf86cd799439115",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 6,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3500
+    },
+    "createdAt": "2022-12-08T13:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2275
+  },
+  {
+    "_id": "507f1f77bcf86cd799439016",
+    "clientId": "507f1f77bcf86cd799440016",
+    "doctorId": "507f1f77bcf86cd799439116",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 8,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2200
+    },
+    "createdAt": "2023-09-25T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1430
+  },
+  {
+    "_id": "507f1f77bcf86cd799439017",
+    "clientId": "507f1f77bcf86cd799440017",
+    "doctorId": "507f1f77bcf86cd799439117",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 3,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 700
+    },
+    "createdAt": "2024-04-13T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439018",
+    "clientId": "507f1f77bcf86cd799440018",
+    "doctorId": "507f1f77bcf86cd799439118",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 10,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 9000
+    },
+    "createdAt": "2022-06-30T15:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 5850
+  },
+  {
+    "_id": "507f1f77bcf86cd799439019",
+    "clientId": "507f1f77bcf86cd799440019",
+    "doctorId": "507f1f77bcf86cd799439119",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 2,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1100
+    },
+    "createdAt": "2023-01-16T10:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 352
+  },
+  {
+    "_id": "507f1f77bcf86cd799439020",
+    "clientId": "507f1f77bcf86cd799440020",
+    "doctorId": "507f1f77bcf86cd799439120",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 7,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2800
+    },
+    "createdAt": "2024-05-01T09:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1820
+  },
+  {
+    "_id": "507f1f77bcf86cd799439021",
+    "clientId": "507f1f77bcf86cd799440021",
+    "doctorId": "507f1f77bcf86cd799439121",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 5,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3200
+    },
+    "createdAt": "2022-08-22T14:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 960
+  },
+  {
+    "_id": "507f1f77bcf86cd799439022",
+    "clientId": "507f1f77bcf86cd799440022",
+    "doctorId": "507f1f77bcf86cd799439122",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 9,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2600
+    },
+    "createdAt": "2023-10-11T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1690
+  },
+  {
+    "_id": "507f1f77bcf86cd799439023",
+    "clientId": "507f1f77bcf86cd799440023",
+    "doctorId": "507f1f77bcf86cd799439123",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 4,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 900
+    },
+    "createdAt": "2021-12-05T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 315
+  },
+  {
+    "_id": "507f1f77bcf86cd799439024",
+    "clientId": "507f1f77bcf86cd799440024",
+    "doctorId": "507f1f77bcf86cd799439124",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 12,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8500
+    },
+    "createdAt": "2023-03-29T15:00:00Z",
+    "reimbursementClass": "High",
+    "reimbursementAmount": 6800
+  },
+  {
+    "_id": "507f1f77bcf86cd799439025",
+    "clientId": "507f1f77bcf86cd799440025",
+    "doctorId": "507f1f77bcf86cd799439125",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 6,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1300
+    },
+    "createdAt": "2022-04-14T10:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 676
+  },
+  {
+    "_id": "507f1f77bcf86cd799439026",
+    "clientId": "507f1f77bcf86cd799440026",
+    "doctorId": "507f1f77bcf86cd799439126",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 3,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1000
+    },
+    "createdAt": "2023-07-07T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439027",
+    "clientId": "507f1f77bcf86cd799440027",
+    "doctorId": "507f1f77bcf86cd799439127",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 8,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3700
+    },
+    "createdAt": "2024-01-03T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2405
+  },
+  {
+    "_id": "507f1f77bcf86cd799439028",
+    "clientId": "507f1f77bcf86cd799440028",
+    "doctorId": "507f1f77bcf86cd799439128",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 10,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2400
+    },
+    "createdAt": "2022-11-28T11:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 720
+  },
+  {
+    "_id": "507f1f77bcf86cd799439029",
+    "clientId": "507f1f77bcf86cd799440029",
+    "doctorId": "507f1f77bcf86cd799439129",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2023-06-19T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 210
+  },
+  {
+    "_id": "507f1f77bcf86cd799439030",
+    "clientId": "507f1f77bcf86cd799440030",
+    "doctorId": "507f1f77bcf86cd799439130",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 11,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8200
+    },
+    "createdAt": "2024-03-07T15:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 5330
+  },
+  {
+    "_id": "507f1f77bcf86cd799439031",
+    "clientId": "507f1f77bcf86cd799440031",
+    "doctorId": "507f1f77bcf86cd799439131",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 5,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1600
+    },
+    "createdAt": "2022-02-23T10:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 832
+  },
+  {
+    "_id": "507f1f77bcf86cd799439032",
+    "clientId": "507f1f77bcf86cd799440032",
+    "doctorId": "507f1f77bcf86cd799439132",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 4,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 900
+    },
+    "createdAt": "2023-08-15T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 315
+  },
+  {
+    "_id": "507f1f77bcf86cd799439033",
+    "clientId": "507f1f77bcf86cd799440033",
+    "doctorId": "507f1f77bcf86cd799439133",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 7,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3900
+    },
+    "createdAt": "2024-02-19T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2535
+  },
+  {
+    "_id": "507f1f77bcf86cd799439034",
+    "clientId": "507f1f77bcf86cd799440004",
+    "doctorId": "507f1f77bcf86cd799439134",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 8,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2700
+    },
+    "createdAt": "2022-10-04T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1755
+  },
+  {
+    "_id": "507f1f77bcf86cd799439035",
+    "clientId": "507f1f77bcf86cd799440035",
+    "doctorId": "507f1f77bcf86cd799439135",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 3,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2023-05-27T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439036",
+    "clientId": "507f1f77bcf86cd799440036",
+    "doctorId": "507f1f77bcf86cd799439136",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 10,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8800
+    },
+    "createdAt": "2024-04-22T15:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 5720
+  },
+  {
+    "_id": "507f1f77bcf86cd799439037",
+    "clientId": "507f1f77bcf86cd799440037",
+    "doctorId": "507f1f77bcf86cd799439137",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 4,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1400
+    },
+    "createdAt": "2022-03-08T10:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 728
+  },
+  {
+    "_id": "507f1f77bcf86cd799439038",
+    "clientId": "507f1f77bcf86cd799440038",
+    "doctorId": "507f1f77bcf86cd799439138",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 6,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1100
+    },
+    "createdAt": "2023-09-02T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 308
+  },
+  {
+    "_id": "507f1f77bcf86cd799439039",
+    "clientId": "507f1f77bcf86cd799440039",
+    "doctorId": "507f1f77bcf86cd799439139",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 9,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3600
+    },
+    "createdAt": "2024-01-27T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2340
+  },
+  {
+    "_id": "507f1f77bcf86cd799439040",
+    "clientId": "507f1f77bcf86cd799440040",
+    "doctorId": "507f1f77bcf86cd799439140",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 7,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2300
+    },
+    "createdAt": "2022-12-13T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1495
+  },
+  {
+    "_id": "507f1f77bcf86cd799439041",
+    "clientId": "507f1f77bcf86cd799440041",
+    "doctorId": "507f1f77bcf86cd799439141",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 700
+    },
+    "createdAt": "2023-07-10T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 245
+  },
+  {
+    "_id": "507f1f77bcf86cd799439042",
+    "clientId": "507f1f77bcf86cd799440042",
+    "doctorId": "507f1f77bcf86cd799439142",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 12,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8700
+    },
+    "createdAt": "2024-02-04T15:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 2610
+  },
+  {
+    "_id": "507f1f77bcf86cd799439043",
+    "clientId": "507f1f77bcf86cd799440043",
+    "doctorId": "507f1f77bcf86cd799439143",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 3,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1700
+    },
+    "createdAt": "2022-05-18T10:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 884
+  },
+  {
+    "_id": "507f1f77bcf86cd799439044",
+    "clientId": "507f1f77bcf86cd799440044",
+    "doctorId": "507f1f77bcf86cd799439144",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 5,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1200
+    },
+    "createdAt": "2023-10-20T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 336
+  },
+  {
+    "_id": "507f1f77bcf86cd799439045",
+    "clientId": "507f1f77bcf86cd799440045",
+    "doctorId": "507f1f77bcf86cd799439145",
+    "treatmentDetails": {
+      "diagnosis": "Fracture",
+      "sessionsAttended": 6,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3800
+    },
+    "createdAt": "2024-03-12T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2470
+  },
+  {
+    "_id": "507f1f77bcf86cd799439046",
+    "clientId": "507f1f77bcf86cd799440046",
+    "doctorId": "507f1f77bcf86cd799439146",
+    "treatmentDetails": {
+      "diagnosis": "Diabetes",
+      "sessionsAttended": 8,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2500
+    },
+    "createdAt": "2022-07-25T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1625
+  },
+  {
+    "_id": "507f1f77bcf86cd799439047",
+    "clientId": "507f1f77bcf86cd799440047",
+    "doctorId": "507f1f77bcf86cd799439147",
+    "treatmentDetails": {
+      "diagnosis": "Infection",
+      "sessionsAttended": 4,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2023-04-01T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439048",
+    "clientId": "507f1f77bcf86cd799440048",
+    "doctorId": "507f1f77bcf86cd799439148",
+    "treatmentDetails": {
+      "diagnosis": "Pneumonia",
+      "sessionsAttended": 11,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 8600
+    },
+    "createdAt": "2024-01-09T15:00:00Z",
+    "reimbursementClass": "High",
+    "reimbursementAmount": 6880
+  },
+  {
+    "_id": "507f1f77bcf86cd799439049",
+    "clientId": "507f1f77bcf86cd799440049",
+    "doctorId": "507f1f77bcf86cd799439149",
+    "treatmentDetails": {
+      "diagnosis": "Asthma",
+      "sessionsAttended": 5,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1500
+    },
+    "createdAt": "2022-09-14T10:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 480
+  },
+  {
+    "_id": "507f1f77bcf86cd799439050",
+    "clientId": "507f1f77bcf86cd799440050",
+    "doctorId": "507f1f77bcf86cd799439150",
+    "treatmentDetails": {
+      "diagnosis": "Hypertension",
+      "sessionsAttended": 3,
+      "treatmentDuration": "12 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2000
+    },
+    "createdAt": "2023-11-26T09:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1300
+  },
+
+  {
+    "_id": "507f1f77bcf86cd799439051",
+    "clientId": "507f1f77bcf86cd799440051",
+    "doctorId": "507f1f77bcf86cd799439151",
+    "treatmentDetails": {
+      "diagnosis": "Broken Leg",
+      "sessionsAttended": 8,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6000
+    },
+    "createdAt": "2023-09-15T10:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 3900
+  },
+  {
+    "_id": "507f1f77bcf86cd799439052",
+    "clientId": "507f1f77bcf86cd799440052",
+    "doctorId": "507f1f77bcf86cd799439152",
+    "treatmentDetails": {
+      "diagnosis": "Sprained Ankle",
+      "sessionsAttended": 4,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1000
+    },
+    "createdAt": "2024-02-10T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 360
+  },
+  {
+    "_id": "507f1f77bcf86cd799439053",
+    "clientId": "507f1f77bcf86cd799440053",
+    "doctorId": "507f1f77bcf86cd799439153",
+    "treatmentDetails": {
+      "diagnosis": "Concussion",
+      "sessionsAttended": 5,
+      "treatmentDuration": "6 weeks",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2500
+    },
+    "createdAt": "2022-11-22T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1625
+  },
+  {
+    "_id": "507f1f77bcf86cd799439054",
+    "clientId": "507f1f77bcf86cd799440054",
+    "doctorId": "507f1f77bcf86cd799439154",
+    "treatmentDetails": {
+      "diagnosis": "Bronchitis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2023-04-17T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439055",
+    "clientId": "507f1f77bcf86cd799440055",
+    "doctorId": "507f1f77bcf86cd799439155",
+    "treatmentDetails": {
+      "diagnosis": "Urinary Tract Infection",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2024-06-03T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 168
+  },
+  {
+    "_id": "507f1f77bcf86cd799439056",
+    "clientId": "507f1f77bcf86cd799440056",
+    "doctorId": "507f1f77bcf86cd799439156",
+    "treatmentDetails": {
+      "diagnosis": "Torn Ligament",
+      "sessionsAttended": 10,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 7500
+    },
+    "createdAt": "2023-01-30T14:00:00Z",
+    "reimbursementClass": "High",
+    "reimbursementAmount": 6000
+  },
+  {
+    "_id": "507f1f77bcf86cd799439057",
+    "clientId": "507f1f77bcf86cd799440057",
+    "doctorId": "507f1f77bcf86cd799439157",
+    "treatmentDetails": {
+      "diagnosis": "Gastroenteritis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1200
+    },
+    "createdAt": "2022-08-05T10:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 672
+  },
+  {
+    "_id": "507f1f77bcf86cd799439058",
+    "clientId": "507f1f77bcf86cd799440058",
+    "doctorId": "507f1f77bcf86cd799439158",
+    "treatmentDetails": {
+      "diagnosis": "Sinusitis",
+      "sessionsAttended": 4,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 900
+    },
+    "createdAt": "2023-10-12T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 315
+  },
+  {
+    "_id": "507f1f77bcf86cd799439059",
+    "clientId": "507f1f77bcf86cd799440059",
+    "doctorId": "507f1f77bcf86cd799439159",
+    "treatmentDetails": {
+      "diagnosis": "Dislocated Shoulder",
+      "sessionsAttended": 7,
+      "treatmentDuration": "2 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 4500
+    },
+    "createdAt": "2024-03-08T13:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2925
+  },
+  {
+    "_id": "507f1f77bcf86cd799439060",
+    "clientId": "507f1f77bcf86cd799440060",
+    "doctorId": "507f1f77bcf86cd799439160",
+    "treatmentDetails": {
+      "diagnosis": "Migraines",
+      "sessionsAttended": 6,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2000
+    },
+    "createdAt": "2022-06-19T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1300
+  },
+  {
+    "_id": "507f1f77bcf86cd799439061",
+    "clientId": "507f1f77bcf86cd799440061",
+    "doctorId": "507f1f77bcf86cd799439161",
+    "treatmentDetails": {
+      "diagnosis": "Cellulitis",
+      "sessionsAttended": 5,
+      "treatmentDuration": "3 weeks",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1500
+    },
+    "createdAt": "2023-05-25T08:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 780
+  },
+  {
+    "_id": "507f1f77bcf86cd799439062",
+    "clientId": "507f1f77bcf86cd799440062",
+    "doctorId": "507f1f77bcf86cd799439162",
+    "treatmentDetails": {
+      "diagnosis": "Broken Leg",
+      "sessionsAttended": 9,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6500
+    },
+    "createdAt": "2024-01-14T14:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 1950
+  },
+  {
+    "_id": "507f1f77bcf86cd799439063",
+    "clientId": "507f1f77bcf86cd799440063",
+    "doctorId": "507f1f77bcf86cd799439163",
+    "treatmentDetails": {
+      "diagnosis": "Sprained Ankle",
+      "sessionsAttended": 3,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1100
+    },
+    "createdAt": "2022-10-30T09:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 572
+  },
+  {
+    "_id": "507f1f77bcf86cd799439064",
+    "clientId": "507f1f77bcf86cd799440064",
+    "doctorId": "507f1f77bcf86cd799439164",
+    "treatmentDetails": {
+      "diagnosis": "Concussion",
+      "sessionsAttended": 4,
+      "treatmentDuration": "6 weeks",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2700
+    },
+    "createdAt": "2023-07-09T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1755
+  },
+  {
+    "_id": "507f1f77bcf86cd799439065",
+    "clientId": "507f1f77bcf86cd799440065",
+    "doctorId": "507f1f77bcf86cd799439165",
+    "treatmentDetails": {
+      "diagnosis": "Bronchitis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 700
+    },
+    "createdAt": "2024-04-21T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 245
+  },
+  {
+    "_id": "507f1f77bcf86cd799439066",
+    "clientId": "507f1f77bcf86cd799440066",
+    "doctorId": "507f1f77bcf86cd799439166",
+    "treatmentDetails": {
+      "diagnosis": "Urinary Tract Infection",
+      "sessionsAttended": 1,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 500
+    },
+    "createdAt": "2022-12-03T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 140
+  },
+  {
+    "_id": "507f1f77bcf86cd799439067",
+    "clientId": "507f1f77bcf86cd799440067",
+    "doctorId": "507f1f77bcf86cd799439167",
+    "treatmentDetails": {
+      "diagnosis": "Torn Ligament",
+      "sessionsAttended": 8,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 7000
+    },
+    "createdAt": "2023-02-16T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 3850
+  },
+  {
+    "_id": "507f1f77bcf86cd799439068",
+    "clientId": "507f1f77bcf86cd799440068",
+    "doctorId": "507f1f77bcf86cd799439168",
+    "treatmentDetails": {
+      "diagnosis": "Gastroenteritis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1300
+    },
+    "createdAt": "2024-05-01T10:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 676
+  },
+  {
+    "_id": "507f1f77bcf86cd799439069",
+    "clientId": "507f1f77bcf86cd799440069",
+    "doctorId": "507f1f77bcf86cd799439169",
+    "treatmentDetails": {
+      "diagnosis": "Sinusitis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2022-09-27T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 280
+  },
+  {
+    "_id": "507f1f77bcf86cd799439070",
+    "clientId": "507f1f77bcf86cd799440070",
+    "doctorId": "507f1f77bcf86cd799439170",
+    "treatmentDetails": {
+      "diagnosis": "Dislocated Shoulder",
+      "sessionsAttended": 6,
+      "treatmentDuration": "2 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 4000
+    },
+    "createdAt": "2023-11-19T13:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2600
+  },
+  {
+    "_id": "507f1f77bcf86cd799439071",
+    "clientId": "507f1f77bcf86cd799440071",
+    "doctorId": "507f1f77bcf86cd799439171",
+    "treatmentDetails": {
+      "diagnosis": "Migraines",
+      "sessionsAttended": 5,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1800
+    },
+    "createdAt": "2022-07-14T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1170
+  },
+  {
+    "_id": "507f1f77bcf86cd799439072",
+    "clientId": "507f1f77bcf86cd799440072",
+    "doctorId": "507f1f77bcf86cd799439172",
+    "treatmentDetails": {
+      "diagnosis": "Cellulitis",
+      "sessionsAttended": 4,
+      "treatmentDuration": "3 weeks",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1400
+    },
+    "createdAt": "2023-06-08T08:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 728
+  },
+  {
+    "_id": "507f1f77bcf86cd799439073",
+    "clientId": "507f1f77bcf86cd799440073",
+    "doctorId": "507f1f77bcf86cd799439173",
+    "treatmentDetails": {
+      "diagnosis": "Broken Leg",
+      "sessionsAttended": 10,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6200
+    },
+    "createdAt": "2024-02-27T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4030
+  },
+  {
+    "_id": "507f1f77bcf86cd799439074",
+    "clientId": "507f1f77bcf86cd799440074",
+    "doctorId": "507f1f77bcf86cd799439174",
+    "treatmentDetails": {
+      "diagnosis": "Sprained Ankle",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 900
+    },
+    "createdAt": "2022-12-16T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 324
+  },
+  {
+    "_id": "507f1f77bcf86cd799439075",
+    "clientId": "507f1f77bcf86cd799440075",
+    "doctorId": "507f1f77bcf86cd799439175",
+    "treatmentDetails": {
+      "diagnosis": "Concussion",
+      "sessionsAttended": 3,
+      "treatmentDuration": "6 weeks",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2300
+    },
+    "createdAt": "2023-08-22T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1495
+  },
+  {
+    "_id": "507f1f77bcf86cd799439076",
+    "clientId": "507f1f77bcf86cd799440076",
+    "doctorId": "507f1f77bcf86cd799439176",
+    "treatmentDetails": {
+      "diagnosis": "Bronchitis",
+      "sessionsAttended": 1,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2024-03-15T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 210
+  },
+  {
+    "_id": "507f1f77bcf86cd799439077",
+    "clientId": "507f1f77bcf86cd799440077",
+    "doctorId": "507f1f77bcf86cd799439177",
+    "treatmentDetails": {
+      "diagnosis": "Urinary Tract Infection",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 500
+    },
+    "createdAt": "2022-11-01T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 140
+  },
+  {
+    "_id": "507f1f77bcf86cd799439078",
+    "clientId": "507f1f77bcf86cd799440078",
+    "doctorId": "507f1f77bcf86cd799439178",
+    "treatmentDetails": {
+      "diagnosis": "Torn Ligament",
+      "sessionsAttended": 9,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 7200
+    },
+    "createdAt": "2023-12-05T14:00:00Z",
+    "reimbursementClass": "High",
+    "reimbursementAmount": 5760
+  },
+  {
+    "_id": "507f1f77bcf86cd799439079",
+    "clientId": "507f1f77bcf86cd799440079",
+    "doctorId": "507f1f77bcf86cd799439179",
+    "treatmentDetails": {
+      "diagnosis": "Gastroenteritis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1100
+    },
+    "createdAt": "2024-01-20T10:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 616
+  },
+  {
+    "_id": "507f1f77bcf86cd799439080",
+    "clientId": "507f1f77bcf86cd799440080",
+    "doctorId": "507f1f77bcf86cd799439180",
+    "treatmentDetails": {
+      "diagnosis": "Sinusitis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 700
+    },
+    "createdAt": "2022-10-08T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 245
+  },
+  {
+    "_id": "507f1f77bcf86cd799439081",
+    "clientId": "507f1f77bcf86cd799440081",
+    "doctorId": "507f1f77bcf86cd799439181",
+    "treatmentDetails": {
+      "diagnosis": "Dislocated Shoulder",
+      "sessionsAttended": 5,
+      "treatmentDuration": "2 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3800
+    },
+    "createdAt": "2023-09-03T13:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2470
+  },
+  {
+    "_id": "507f1f77bcf86cd799439082",
+    "clientId": "507f1f77bcf86cd799440082",
+    "doctorId": "507f1f77bcf86cd799439182",
+    "treatmentDetails": {
+      "diagnosis": "Migraines",
+      "sessionsAttended": 4,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1600
+    },
+    "createdAt": "2022-08-18T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1040
+  },
+  {
+    "_id": "507f1f77bcf86cd799439083",
+    "clientId": "507f1f77bcf86cd799440083",
+    "doctorId": "507f1f77bcf86cd799439183",
+    "treatmentDetails": {
+      "diagnosis": "Cellulitis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "3 weeks",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1200
+    },
+    "createdAt": "2023-07-28T08:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 384
+  },
+  {
+    "_id": "507f1f77bcf86cd799439084",
+    "clientId": "507f1f77bcf86cd799440084",
+    "doctorId": "507f1f77bcf86cd799439184",
+    "treatmentDetails": {
+      "diagnosis": "Broken Leg",
+      "sessionsAttended": 11,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6700
+    },
+    "createdAt": "2024-04-10T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4355
+  },
+  {
+    "_id": "507f1f77bcf86cd799439085",
+    "clientId": "507f1f77bcf86cd799440085",
+    "doctorId": "507f1f77bcf86cd799439185",
+    "treatmentDetails": {
+      "diagnosis": "Sprained Ankle",
+      "sessionsAttended": 1,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 800
+    },
+    "createdAt": "2022-11-25T09:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 448
+  },
+  {
+    "_id": "507f1f77bcf86cd799439086",
+    "clientId": "507f1f77bcf86cd799440086",
+    "doctorId": "507f1f77bcf86cd799439186",
+    "treatmentDetails": {
+      "diagnosis": "Concussion",
+      "sessionsAttended": 2,
+      "treatmentDuration": "6 weeks",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 2100
+    },
+    "createdAt": "2023-10-17T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 1365
+  },
+  {
+    "_id": "507f1f77bcf86cd799439087",
+    "clientId": "507f1f77bcf86cd799440087",
+    "doctorId": "507f1f77bcf86cd799439187",
+    "treatmentDetails": {
+      "diagnosis": "Bronchitis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2024-02-12T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 210
+  },
+  {
+    "_id": "507f1f77bcf86cd799439088",
+    "clientId": "507f1f77bcf86cd799440088",
+    "doctorId": "507f1f77bcf86cd799439188",
+    "treatmentDetails": {
+      "diagnosis": "Urinary Tract Infection",
+      "sessionsAttended": 1,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 400
+    },
+    "createdAt": "2022-12-29T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 112
+  },
+  {
+    "_id": "507f1f77bcf86cd799439089",
+    "clientId": "507f1f77bcf86cd799440089",
+    "doctorId": "507f1f77bcf86cd799439189",
+    "treatmentDetails": {
+      "diagnosis": "Torn Ligament",
+      "sessionsAttended": 7,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6800
+    },
+    "createdAt": "2023-11-11T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4420
+  },
+  {
+    "_id": "507f1f77bcf86cd799439090",
+    "clientId": "507f1f77bcf86cd799440090",
+    "doctorId": "507f1f77bcf86cd799439190",
+    "treatmentDetails": {
+      "diagnosis": "Gastroenteritis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1000
+    },
+    "createdAt": "2024-03-28T10:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 320
+  },
+  {
+    "_id": "507f1f77bcf86cd799439091",
+    "clientId": "507f1f77bcf86cd799440091",
+    "doctorId": "507f1f77bcf86cd799439191",
+    "treatmentDetails": {
+      "diagnosis": "Sinusitis",
+      "sessionsAttended": 1,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 600
+    },
+    "createdAt": "2022-10-22T09:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 210
+  },
+  {
+    "_id": "507f1f77bcf86cd799439092",
+    "clientId": "507f1f77bcf86cd799440092",
+    "doctorId": "507f1f77bcf86cd799439192",
+    "treatmentDetails": {
+      "diagnosis": "Dislocated Shoulder",
+      "sessionsAttended": 4,
+      "treatmentDuration": "2 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 3600
+    },
+    "createdAt": "2023-12-14T13:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 2340
+  },
+  {
+    "_id": "507f1f77bcf86cd799439093",
+    "clientId": "507f1f77bcf86cd799440093",
+    "doctorId": "507f1f77bcf86cd799439193",
+    "treatmentDetails": {
+      "diagnosis": "Migraines",
+      "sessionsAttended": 3,
+      "treatmentDuration": "6 months",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1400
+    },
+    "createdAt": "2022-09-09T11:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 910
+  },
+  {
+    "_id": "507f1f77bcf86cd799439094",
+    "clientId": "507f1f77bcf86cd799440094",
+    "doctorId": "507f1f77bcf86cd799439194",
+    "treatmentDetails": {
+      "diagnosis": "Cellulitis",
+      "sessionsAttended": 2,
+      "treatmentDuration": "3 weeks",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1100
+    },
+    "createdAt": "2023-08-04T08:30:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 616
+  },
+  {
+    "_id": "507f1f77bcf86cd799439095",
+    "clientId": "507f1f77bcf86cd799440095",
+    "doctorId": "507f1f77bcf86cd799439195",
+    "treatmentDetails": {
+      "diagnosis": "Broken hand",
+      "sessionsAttended": 12,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 4
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6900
+    },
+    "createdAt": "2024-01-06T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4485
+  },
+  {
+    "_id": "507f1f77bcf86cd799439096",
+    "clientId": "507f1f77bcf86cd799440096",
+    "doctorId": "507f1f77bcf86cd799439196",
+    "treatmentDetails": {
+      "diagnosis": "Sprained Ankle",
+      "sessionsAttended": 2,
+      "treatmentDuration": "1 month",
+      "caseSeverity": 2
+    },
+    "financialInfo": {
+      "totalAmountPaid": 700
+    },
+    "createdAt": "2022-12-11T09:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 392
+  },
+  {
+    "_id": "507f1f77bcf86cd799439097",
+    "clientId": "507f1f77bcf86cd799440097",
+    "doctorId": "507f1f77bcf86cd799439197",
+    "treatmentDetails": {
+      "diagnosis": "Concussion",
+      "sessionsAttended": 1,
+      "treatmentDuration": "6 weeks",
+      "caseSeverity": 3
+    },
+    "financialInfo": {
+      "totalAmountPaid": 1900
+    },
+    "createdAt": "2023-07-19T11:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 684
+  },
+  {
+    "_id": "507f1f77bcf86cd799439098",
+    "clientId": "507f1f77bcf86cd799440098",
+    "doctorId": "507f1f77bcf86cd799439198",
+    "treatmentDetails": {
+      "diagnosis": "Bronchitis",
+      "sessionsAttended": 3,
+      "treatmentDuration": "2 weeks",
+      "caseSeverity": 1
+    },
+    "financialInfo": {
+      "totalAmountPaid": 500
+    },
+    "createdAt": "2024-02-25T08:00:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 175
+  },
+  {
+    "_id": "507f1f77bcf86cd799439099",
+    "clientId": "507f1f77bcf86cd799440099",
+    "doctorId": "507f1f77bcf86cd799439199",
+    "treatmentDetails": {
+      "diagnosis": "Urinary Tract Infection",
+      "sessionsAttended": 1,
+      "treatmentDuration": "1 week",
+      "caseSeverity": 0
+    },
+    "financialInfo": {
+      "totalAmountPaid": 300
+    },
+    "createdAt": "2022-11-16T09:30:00Z",
+    "reimbursementClass": "Low",
+    "reimbursementAmount": 84
+  },
+  {
+    "_id": "507f1f77bcf86cd799439100",
+    "clientId": "507f1f77bcf86cd799440100",
+    "doctorId": "507f1f77bcf86cd799439200",
+    "treatmentDetails": {
+      "diagnosis": "Torn Ligament",
+      "sessionsAttended": 6,
+      "treatmentDuration": "3 months",
+      "caseSeverity": 5
+    },
+    "financialInfo": {
+      "totalAmountPaid": 6600
+    },
+    "createdAt": "2023-10-29T14:00:00Z",
+    "reimbursementClass": "Medium",
+    "reimbursementAmount": 4290
+  }
+]

@@ -3,23 +3,45 @@ import { useNavigate } from 'react-router-dom';
 
 function ClientCard({ client }) {
   const navigate = useNavigate();
+  const formattedDate = client.birthDate
+    ? new Date(client.birthDate).toLocaleDateString()
+    : 'N/A';
+  const nationalId = client.nationalId || 'N/A';
 
   return (
     <div
-      className="bg-gray-200 p-4 rounded-lg shadow-md cursor-pointer hover:shadow-lg border border-gray-300 hover:border-[#006A6A] transition-all duration-200"
-      onClick={() => navigate(`/insurer/client/${client.clientId}`)}
+      className="bg-gray-50 p-4 rounded-lg border border-gray-300 hover:border-indigo-100 cursor-pointer transition-all duration-200 w-full max-w-md"
+      onClick={() => client.clientId && navigate(`/insurer/client/${client.clientId}`)}
     >
-      <h4 className="text-xl font-bold text-gray-800 mb-2">{client.fullName}</h4>
-      <div className="space-y-1 text-sm">
-        <p className="text-gray-700">
-          <span className="text-gray-600">Client ID:</span> {client.clientId}
+      <div className="flex items-center space-x-4 mb-3">
+        {client.image ? (
+          <img
+            src={client.image}
+            alt="Client"
+            className="w-12 h-12 rounded-full object-cover"
+          />
+        ) : (
+          <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center text-gray-600">
+            No Image
+          </div>
+        )}
+        <div>
+          <h4 className="text-lg font-semibold text-gray-900">{client.name}</h4>
+          <p className="text-sm text-gray-600">{client.email}</p>
+        </div>
+      </div>
+      <div className="space-y-1 text-sm text-gray-600">
+        <p>
+          <span className="font-semibold">Plan Range:</span> {client.plan.range.min}% - {client.plan.range.max}%
         </p>
-        <p className="text-gray-700">
-          <span className="text-gray-600">Date of Birth:</span> {client.dateOfBirth}
+        <p>
+          <span className="font-semibold">Date of Birth:</span> {formattedDate}
         </p>
-        <p className="text-gray-700">
-          <span className="text-gray-600">Status:</span>{' '}
-          {client.retired ? 'Retired' : 'Active'}
+        <p>
+          <span className="font-semibold">National ID:</span> {nationalId}
+        </p>
+        <p>
+          <span className="font-semibold">Job:</span> {client.job}
         </p>
       </div>
     </div>
@@ -28,10 +50,22 @@ function ClientCard({ client }) {
 
 ClientCard.propTypes = {
   client: PropTypes.shape({
-    fullName: PropTypes.string.isRequired,
-    clientId: PropTypes.string.isRequired,
-    dateOfBirth: PropTypes.string.isRequired,
-    retired: PropTypes.bool.isRequired,
+    name: PropTypes.string.isRequired,
+    clientId: PropTypes.string,
+    email: PropTypes.string,
+    image: PropTypes.string,
+    plan: PropTypes.shape({
+      range: PropTypes.shape({
+        min: PropTypes.number.isRequired,
+        max: PropTypes.number.isRequired,
+      }).isRequired,
+    }).isRequired,
+    birthDate: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.instanceOf(Date)
+    ]),
+    nationalId: PropTypes.string,
+    job: PropTypes.string.isRequired,
   }).isRequired,
 };
 
