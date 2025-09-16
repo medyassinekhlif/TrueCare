@@ -18,7 +18,11 @@ The client-side application, found in the `client/` directory, provides an intui
 
 The `test/` directory ensures the reliability of TrueCare AI through comprehensive testing. The API tests, housed in `test/api/`, include `auth.test.js` to verify authentication logic, configured via `jest.config.js`. Client-side tests in `test/client/`, such as `AuthComponents.test.jsx`, validate critical UI components like `DoctorAuth.jsx` and `InsurerAuth.jsx`. These tests, supported by Jest and other dependencies in `package.json`, cover functionality, security, and user interactions, ensuring the application performs robustly across real-world healthcare reimbursement scenarios.
 
-## Project Snapshot
 
-(./client/src/assets/1.png)
+<p align="center">
+  <img src="./client/src/assets/1.png" alt="Project Snapshot" width="600" />
+</p>
+
+
+
 
